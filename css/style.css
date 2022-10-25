@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  font-family:'Almarai';
+}
+.background{
+    background-image: url('../images/background.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+.countanier{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  
+}
+h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom:10px;
+    
+}
+/* .one,.two,.three,.four,.five,.six,.seven,.eight{
+    display: inline;
+} */
+.two,.four,.six,.eight{
+    float: right;
+   display: block;
+   bottom: 100px;
+
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: one;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+    background-size: contain;
+}
+@keyframes one{
+    0%{
+       left: 0px;
+    }
+    100%{
+       left: 1140px;
+    }
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: two;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+    background-size: contain;
+}
+@keyframes two{
+    0%{
+       right: 0px;
+    }
+    100%{
+       right: 1140px;
+    }
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: three;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    position: relative;
+    background-size: contain;
+}
+@keyframes three{
+    0%{
+       left: 0px;
+    }
+    100%{
+       left: 1140px;
+    }
+}
+.four{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: four;
+    animation-duration: 5s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    position: relative;
+    background-size: contain;
+}
+@keyframes four{
+    0%{
+        right: 0px;
+     }
+     100%{
+        right: 1140px;
+     }
+}
+.five{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: five;
+    animation-duration: 5s;
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
+    position: relative;
+    background-size: contain;
+}
+@keyframes five{
+    0%{
+       left: 0px;
+    }
+    100%{
+       left: 1140px;
+    }
+}
+.six{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: six;
+    animation-duration: 5s;
+    animation-delay: 25s;
+    animation-fill-mode: forwards;
+    position: relative;
+    background-size: contain;
+}
+@keyframes six{
+    0%{
+        right: 0px;
+     }
+     100%{
+        right: 1140px;
+     }
+}
+.seven{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: seven;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 30s;
+    position: relative;
+    background-size: contain;
+}
+@keyframes seven{
+    0%{
+       left: 0px;
+    }
+    100%{
+       left: 1140px;
+    }
+}
+.eight{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/item.png');
+    background-repeat: no-repeat;
+    animation-name: eight;
+    animation-duration: 5s;
+    animation-delay: 35s;
+    position: relative;
+    animation-fill-mode: forwards;
+    background-size: contain;
+}
+@keyframes eight{
+    0%{
+        right: 0px;
+     }
+     100%{
+        right: 1140px;
+     }
+}
